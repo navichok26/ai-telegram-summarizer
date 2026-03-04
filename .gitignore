@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.pyo
+*.log
+.DS_Store
+
+state/
+
+.env
+.env.local
+.env.*.local
+!.env.example

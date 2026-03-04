@@ -1,0 +1,44 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: always
+    env_file:
+      - .env
+    environment:
+      OLLAMA_URL: ${OLLAMA_URL:-http://host.docker.internal:11434}
+      POLL_INTERVAL_SECONDS: ${POLL_INTERVAL_SECONDS:-2}
+      MIN_NEW_MESSAGES_FOR_SUMMARY: ${MIN_NEW_MESSAGES_FOR_SUMMARY:-25}
+      SUMMARY_COOLDOWN_SECONDS: ${SUMMARY_COOLDOWN_SECONDS:-3600}
+      MAX_BUFFER_MESSAGES: ${MAX_BUFFER_MESSAGES:-800}
+      MIN_CHARS: ${MIN_CHARS:-12}
+      MERGE_WINDOW_SECONDS: ${MERGE_WINDOW_SECONDS:-180}
+      MAX_MERGE_MESSAGES: ${MAX_MERGE_MESSAGES:-3}
+      MAX_MERGE_SPAN_SECONDS: ${MAX_MERGE_SPAN_SECONDS:-90}
+      MODEL: ${MODEL:-qwen3.5:9b}
+      MAX_TOPICS: ${MAX_TOPICS:-12}
+      BATCH_SIZE: ${BATCH_SIZE:-100}
+      MAX_SEND_CHARS: ${MAX_SEND_CHARS:-3800}
+      LOG_LEVEL: ${LOG_LEVEL:-INFO}
+    command: >-
+      sh -c "python summarize.py
+      --state-file /data/bot_state.json
+      --poll-interval-seconds $$POLL_INTERVAL_SECONDS
+      --min-new-messages-for-summary $$MIN_NEW_MESSAGES_FOR_SUMMARY
+      --summary-cooldown-seconds $$SUMMARY_COOLDOWN_SECONDS
+      --max-buffer-messages $$MAX_BUFFER_MESSAGES
+      --min-chars $$MIN_CHARS
+      --merge-window-seconds $$MERGE_WINDOW_SECONDS
+      --max-merge-messages $$MAX_MERGE_MESSAGES
+      --max-merge-span-seconds $$MAX_MERGE_SPAN_SECONDS
+      --model $$MODEL
+      --ollama-url $$OLLAMA_URL
+      --max-topics $$MAX_TOPICS
+      --batch-size $$BATCH_SIZE
+      --max-send-chars $$MAX_SEND_CHARS
+      --log-level $$LOG_LEVEL"
+    volumes:
+      - ./state:/data
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
