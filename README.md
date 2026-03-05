@@ -145,6 +145,30 @@ Set `LOG_LEVEL=DEBUG` to get detailed timings and counters:
 - Merge timings
 - Full cycle duration
 
+## Pipeline Debug With Mocks
+
+For step-by-step testing of summarization logic (filters, merges, prompts, raw LLM outputs, and final digest), run:
+
+```bash
+python3 scripts/debug_summarization.py \
+  --updates-file mocks/telegram_updates.sample.json \
+  --ollama-url http://localhost:11434 \
+  --model qwen3.5:9b \
+  --batch-size 25
+```
+
+What this script prints:
+
+- filter trace for each update (`accepted`, `duplicate`, `via_bot`, `short_text`, etc.)
+- `process_updates` stats
+- normalized messages
+- merged chunks
+- per-batch prompts and live Ollama outputs
+- semantic merge prompt and output
+- final topics and formatted digest text
+
+The script always calls live Ollama using `--ollama-url` and `--model`.
+
 ## Telegram Permissions Notes
 
 For full message visibility in groups, bot privacy mode may need to be disabled in BotFather.

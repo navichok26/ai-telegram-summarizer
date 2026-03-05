@@ -1,0 +1,3043 @@
+{
+  "updates": [
+    {
+      "update_id": 20000,
+      "edited_message": {
+        "message_id": 777
+      }
+    },
+    {
+      "update_id": 20001,
+      "message": {
+        "message_id": 1000,
+        "date": 1762400040,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10001,
+          "is_bot": false,
+          "first_name": "Alice"
+        },
+        "text": "Suggest release sync: collect risks, frontend dependency, and final rollout checklist. Message #2."
+      }
+    },
+    {
+      "update_id": 20002,
+      "message": {
+        "message_id": 1001,
+        "date": 1762400080,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10002,
+          "is_bot": false,
+          "first_name": "Bob"
+        },
+        "text": "I took DB migrations, will send SQL by evening and add rollback steps. Message #3."
+      }
+    },
+    {
+      "update_id": 20003,
+      "message": {
+        "message_id": 1002,
+        "date": 1762400120,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10002,
+          "is_bot": false,
+          "first_name": "Bob"
+        },
+        "text": "Need to adjust alerts: too noisy now, keep only critical events and 5xx errors. Message #4."
+      }
+    },
+    {
+      "update_id": 20004,
+      "message": {
+        "message_id": 1003,
+        "date": 1762400160,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10003,
+          "is_bot": false,
+          "first_name": "Carol"
+        },
+        "text": "Checked production after deploy, latency grew on one endpoint, profiling cache now. Message #5."
+      }
+    },
+    {
+      "update_id": 20005,
+      "message": {
+        "message_id": 1004,
+        "date": 1762400200,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10003,
+          "is_bot": false,
+          "first_name": "Carol"
+        },
+        "text": "Prepared draft API docs with request examples and common client-side errors. Message #6."
+      }
+    },
+    {
+      "update_id": 20006,
+      "message": {
+        "message_id": 1005,
+        "date": 1762400240,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10004,
+          "is_bot": false,
+          "first_name": "Dan"
+        },
+        "text": "Lets lock deadline for Friday, otherwise testing slips and regression stays open. Message #7."
+      }
+    },
+    {
+      "update_id": 20007,
+      "message": {
+        "message_id": 1006,
+        "date": 1762400280,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10004,
+          "is_bot": false,
+          "first_name": "Dan"
+        },
+        "text": "Queue fixes done: retries are limited to avoid duplicate notifications to users. Message #8."
+      }
+    },
+    {
+      "update_id": 20008,
+      "message": {
+        "message_id": 1007,
+        "date": 1762400320,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10005,
+          "is_bot": false,
+          "first_name": "Eva"
+        },
+        "text": "Backend task updated: payment integration in progress, need review and logs check. Message #9."
+      }
+    },
+    {
+      "update_id": 20009,
+      "message": {
+        "message_id": 1008,
+        "date": 1762400360,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10005,
+          "is_bot": false,
+          "first_name": "Eva"
+        },
+        "text": "Suggest release sync: collect risks, frontend dependency, and final rollout checklist. Message #10."
+      }
+    },
+    {
+      "update_id": 20010,
+      "message": {
+        "message_id": 1009,
+        "date": 1762400400,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10006,
+          "is_bot": false,
+          "first_name": "Fedor"
+        },
+        "text": "I took DB migrations, will send SQL by evening and add rollback steps. Message #11."
+      }
+    },
+    {
+      "update_id": 20011,
+      "message": {
+        "message_id": 1010,
+        "date": 1762400440,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10006,
+          "is_bot": false,
+          "first_name": "Fedor"
+        },
+        "text": "Need to adjust alerts: too noisy now, keep only critical events and 5xx errors. Message #12."
+      }
+    },
+    {
+      "update_id": 20012,
+      "message": {
+        "message_id": 1011,
+        "date": 1762400480,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10007,
+          "is_bot": false,
+          "first_name": "Gleb"
+        },
+        "text": "Checked production after deploy, latency grew on one endpoint, profiling cache now. Message #13."
+      }
+    },
+    {
+      "update_id": 20013,
+      "message": {
+        "message_id": 1012,
+        "date": 1762400520,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10007,
+          "is_bot": false,
+          "first_name": "Gleb"
+        },
+        "text": "Prepared draft API docs with request examples and common client-side errors. Message #14."
+      }
+    },
+    {
+      "update_id": 20014,
+      "message": {
+        "message_id": 1013,
+        "date": 1762400560,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10008,
+          "is_bot": false,
+          "first_name": "Ira"
+        },
+        "text": "Lets lock deadline for Friday, otherwise testing slips and regression stays open. Message #15."
+      }
+    },
+    {
+      "update_id": 20015,
+      "message": {
+        "message_id": 1014,
+        "date": 1762400600,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10008,
+          "is_bot": false,
+          "first_name": "Ira"
+        },
+        "text": "Queue fixes done: retries are limited to avoid duplicate notifications to users. Message #16."
+      }
+    },
+    {
+      "update_id": 20016,
+      "message": {
+        "message_id": 1015,
+        "date": 1762400640,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10009,
+          "is_bot": false,
+          "first_name": "Zhenya"
+        },
+        "text": "Backend task updated: payment integration in progress, need review and logs check. Message #17."
+      }
+    },
+    {
+      "update_id": 20017,
+      "message": {
+        "message_id": 1016,
+        "date": 1762400680,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10009,
+          "is_bot": false,
+          "first_name": "Zhenya"
+        },
+        "text": "ok"
+      }
+    },
+    {
+      "update_id": 20018,
+      "message": {
+        "message_id": 1017,
+        "date": 1762400720,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10010,
+          "is_bot": false,
+          "first_name": "Mila"
+        },
+        "text": "I took DB migrations, will send SQL by evening and add rollback steps. Message #19."
+      }
+    },
+    {
+      "update_id": 20019,
+      "message": {
+        "message_id": 1018,
+        "date": 1762400760,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10010,
+          "is_bot": false,
+          "first_name": "Mila"
+        },
+        "photo": [
+          {
+            "file_id": "photo_19",
+            "file_unique_id": "uniq_19",
+            "width": 640,
+            "height": 480
+          }
+        ]
+      }
+    },
+    {
+      "update_id": 20020,
+      "message": {
+        "message_id": 1019,
+        "date": 1762400800,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10001,
+          "is_bot": false,
+          "first_name": "Alice"
+        },
+        "text": "Checked production after deploy, latency grew on one endpoint, profiling cache now. Message #21."
+      }
+    },
+    {
+      "update_id": 20021,
+      "message": {
+        "message_id": 1020,
+        "date": 1762400840,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10001,
+          "is_bot": false,
+          "first_name": "Alice"
+        },
+        "text": "Prepared draft API docs with request examples and common client-side errors. Message #22."
+      }
+    },
+    {
+      "update_id": 20022,
+      "message": {
+        "message_id": 1021,
+        "date": 1762400880,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10002,
+          "is_bot": false,
+          "first_name": "Bob"
+        },
+        "text": "Lets lock deadline for Friday, otherwise testing slips and regression stays open. Message #23."
+      }
+    },
+    {
+      "update_id": 20023,
+      "message": {
+        "message_id": 1022,
+        "date": 1762400920,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10002,
+          "is_bot": false,
+          "first_name": "Bob"
+        },
+        "text": "Sent via helper bot, should be filtered out.",
+        "via_bot": {
+          "id": 5023,
+          "is_bot": true,
+          "username": "helper_bot"
+        }
+      }
+    },
+    {
+      "update_id": 20024,
+      "message": {
+        "message_id": 1023,
+        "date": 1762400960,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10003,
+          "is_bot": false,
+          "first_name": "Carol"
+        },
+        "text": "Backend task updated: payment integration in progress, need review and logs check. Message #25."
+      }
+    },
+    {
+      "update_id": 20025,
+      "message": {
+        "message_id": 1024,
+        "date": 1762401000,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10003,
+          "is_bot": false,
+          "first_name": "Carol"
+        },
+        "text": "Suggest release sync: collect risks, frontend dependency, and final rollout checklist. Message #26."
+      }
+    },
+    {
+      "update_id": 20026,
+      "message": {
+        "message_id": 1025,
+        "date": 1762401040,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10004,
+          "is_bot": false,
+          "first_name": "Dan"
+        },
+        "text": "I took DB migrations, will send SQL by evening and add rollback steps. Message #27."
+      }
+    },
+    {
+      "update_id": 20027,
+      "message": {
+        "message_id": 1026,
+        "date": 1762401080,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10004,
+          "is_bot": false,
+          "first_name": "Dan"
+        },
+        "text": "Need to adjust alerts: too noisy now, keep only critical events and 5xx errors. Message #28."
+      }
+    },
+    {
+      "update_id": 20028,
+      "message": {
+        "message_id": 1027,
+        "date": 1762401120,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10005,
+          "is_bot": false,
+          "first_name": "Eva"
+        },
+        "text": "Checked production after deploy, latency grew on one endpoint, profiling cache now. Message #29."
+      }
+    },
+    {
+      "update_id": 20029,
+      "message": {
+        "message_id": 1028,
+        "date": 1762401160,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 30029,
+          "is_bot": true,
+          "first_name": "ServiceBot"
+        },
+        "text": "Automated service update about metrics."
+      }
+    },
+    {
+      "update_id": 20030,
+      "message": {
+        "message_id": 1029,
+        "date": 1762401200,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10006,
+          "is_bot": false,
+          "first_name": "Fedor"
+        },
+        "text": "Lets lock deadline for Friday, otherwise testing slips and regression stays open. Message #31."
+      }
+    },
+    {
+      "update_id": 20031,
+      "message": {
+        "message_id": 1030,
+        "date": 1762401240,
+        "chat": {
+          "id": 55667788,
+          "type": "private"
+        },
+        "from": {
+          "id": 10006,
+          "is_bot": false,
+          "first_name": "Fedor"
+        },
+        "text": "Private chat message, must be skipped by non-group filter."
+      }
+    },
+    {
+      "update_id": 20032,
+      "message": {
+        "message_id": 1031,
+        "date": 1762401280,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10007,
+          "is_bot": false,
+          "first_name": "Gleb"
+        },
+        "text": "Backend task updated: payment integration in progress, need review and logs check. Message #33."
+      }
+    },
+    {
+      "update_id": 20033,
+      "message": {
+        "message_id": 1032,
+        "date": 1762401320,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10007,
+          "is_bot": false,
+          "first_name": "Gleb"
+        },
+        "text": "Suggest release sync: collect risks, frontend dependency, and final rollout checklist. Message #34."
+      }
+    },
+    {
+      "update_id": 20034,
+      "message": {
+        "message_id": 1033,
+        "date": 1762401360,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10008,
+          "is_bot": false,
+          "first_name": "Ira"
+        },
+        "text": "ok"
+      }
+    },
+    {
+      "update_id": 20035,
+      "message": {
+        "message_id": 1034,
+        "date": 1762401400,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10008,
+          "is_bot": false,
+          "first_name": "Ira"
+        },
+        "text": "Need to adjust alerts: too noisy now, keep only critical events and 5xx errors. Message #36."
+      }
+    },
+    {
+      "update_id": 20036,
+      "message": {
+        "message_id": 1035,
+        "date": 1762401440,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10009,
+          "is_bot": false,
+          "first_name": "Zhenya"
+        },
+        "text": "Checked production after deploy, latency grew on one endpoint, profiling cache now. Message #37."
+      }
+    },
+    {
+      "update_id": 20037,
+      "message": {
+        "message_id": 1036,
+        "date": 1762401480,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10009,
+          "is_bot": false,
+          "first_name": "Zhenya"
+        },
+        "text": "Prepared draft API docs with request examples and common client-side errors. Message #38."
+      }
+    },
+    {
+      "update_id": 20038,
+      "message": {
+        "message_id": 1037,
+        "date": 1762401520,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10010,
+          "is_bot": false,
+          "first_name": "Mila"
+        },
+        "photo": [
+          {
+            "file_id": "photo_38",
+            "file_unique_id": "uniq_38",
+            "width": 640,
+            "height": 480
+          }
+        ]
+      }
+    },
+    {
+      "update_id": 20039,
+      "message": {
+        "message_id": 1038,
+        "date": 1762401560,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10010,
+          "is_bot": false,
+          "first_name": "Mila"
+        },
+        "text": "Queue fixes done: retries are limited to avoid duplicate notifications to users. Message #40."
+      }
+    },
+    {
+      "update_id": 20040,
+      "message": {
+        "message_id": 1039,
+        "date": 1762401600,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10001,
+          "is_bot": false,
+          "first_name": "Alice"
+        },
+        "text": "Backend task updated: payment integration in progress, need review and logs check. Message #41."
+      }
+    },
+    {
+      "update_id": 20041,
+      "edited_message": {
+        "message_id": 818
+      }
+    },
+    {
+      "update_id": 20042,
+      "message": {
+        "message_id": 1040,
+        "date": 1762401680,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10002,
+          "is_bot": false,
+          "first_name": "Bob"
+        },
+        "text": "I took DB migrations, will send SQL by evening and add rollback steps. Message #43."
+      }
+    },
+    {
+      "update_id": 20043,
+      "message": {
+        "message_id": 1041,
+        "date": 1762401720,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10002,
+          "is_bot": false,
+          "first_name": "Bob"
+        },
+        "text": "Need to adjust alerts: too noisy now, keep only critical events and 5xx errors. Message #44."
+      }
+    },
+    {
+      "update_id": 20044,
+      "message": {
+        "message_id": 1042,
+        "date": 1762401760,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10003,
+          "is_bot": false,
+          "first_name": "Carol"
+        },
+        "text": "Checked production after deploy, latency grew on one endpoint, profiling cache now. Message #45."
+      }
+    },
+    {
+      "update_id": 20045,
+      "message": {
+        "message_id": 1043,
+        "date": 1762401800,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10003,
+          "is_bot": false,
+          "first_name": "Carol"
+        },
+        "text": "Prepared draft API docs with request examples and common client-side errors. Message #46."
+      }
+    },
+    {
+      "update_id": 20046,
+      "message": {
+        "message_id": 1044,
+        "date": 1762401840,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10004,
+          "is_bot": false,
+          "first_name": "Dan"
+        },
+        "text": "Sent via helper bot, should be filtered out.",
+        "via_bot": {
+          "id": 5046,
+          "is_bot": true,
+          "username": "helper_bot"
+        }
+      }
+    },
+    {
+      "update_id": 20047,
+      "message": {
+        "message_id": 1045,
+        "date": 1762401880,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10004,
+          "is_bot": false,
+          "first_name": "Dan"
+        },
+        "text": "Queue fixes done: retries are limited to avoid duplicate notifications to users. Message #48."
+      }
+    },
+    {
+      "update_id": 20048,
+      "message": {
+        "message_id": 1046,
+        "date": 1762401920,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10005,
+          "is_bot": false,
+          "first_name": "Eva"
+        },
+        "text": "Backend task updated: payment integration in progress, need review and logs check. Message #49."
+      }
+    },
+    {
+      "update_id": 20049,
+      "message": {
+        "message_id": 1047,
+        "date": 1762401960,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10005,
+          "is_bot": false,
+          "first_name": "Eva"
+        },
+        "text": "Suggest release sync: collect risks, frontend dependency, and final rollout checklist. Message #50."
+      }
+    },
+    {
+      "update_id": 20050,
+      "message": {
+        "message_id": 1048,
+        "date": 1762402000,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10006,
+          "is_bot": false,
+          "first_name": "Fedor"
+        },
+        "text": "I took DB migrations, will send SQL by evening and add rollback steps. Message #51."
+      }
+    },
+    {
+      "update_id": 20051,
+      "message": {
+        "message_id": 1049,
+        "date": 1762402040,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10006,
+          "is_bot": false,
+          "first_name": "Fedor"
+        },
+        "text": "ok"
+      }
+    },
+    {
+      "update_id": 20052,
+      "message": {
+        "message_id": 1050,
+        "date": 1762402080,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10007,
+          "is_bot": false,
+          "first_name": "Gleb"
+        },
+        "text": "Checked production after deploy, latency grew on one endpoint, profiling cache now. Message #53."
+      }
+    },
+    {
+      "update_id": 20053,
+      "message": {
+        "message_id": 1051,
+        "date": 1762402120,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10007,
+          "is_bot": false,
+          "first_name": "Gleb"
+        },
+        "text": "Prepared draft API docs with request examples and common client-side errors. Message #54."
+      }
+    },
+    {
+      "update_id": 20054,
+      "message": {
+        "message_id": 1052,
+        "date": 1762402160,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10008,
+          "is_bot": false,
+          "first_name": "Ira"
+        },
+        "text": "Lets lock deadline for Friday, otherwise testing slips and regression stays open. Message #55."
+      }
+    },
+    {
+      "update_id": 20055,
+      "message": {
+        "message_id": 1053,
+        "date": 1762402200,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10008,
+          "is_bot": false,
+          "first_name": "Ira"
+        },
+        "text": "Queue fixes done: retries are limited to avoid duplicate notifications to users. Message #56."
+      }
+    },
+    {
+      "update_id": 20056,
+      "message": {
+        "message_id": 1054,
+        "date": 1762402240,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10009,
+          "is_bot": false,
+          "first_name": "Zhenya"
+        },
+        "text": "Backend task updated: payment integration in progress, need review and logs check. Message #57."
+      }
+    },
+    {
+      "update_id": 20057,
+      "message": {
+        "message_id": 1055,
+        "date": 1762402280,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10009,
+          "is_bot": false,
+          "first_name": "Zhenya"
+        },
+        "photo": [
+          {
+            "file_id": "photo_57",
+            "file_unique_id": "uniq_57",
+            "width": 640,
+            "height": 480
+          }
+        ]
+      }
+    },
+    {
+      "update_id": 20058,
+      "message": {
+        "message_id": 1056,
+        "date": 1762402320,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 30058,
+          "is_bot": true,
+          "first_name": "ServiceBot"
+        },
+        "text": "Automated service update about metrics."
+      }
+    },
+    {
+      "update_id": 20059,
+      "message": {
+        "message_id": 1057,
+        "date": 1762402360,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10010,
+          "is_bot": false,
+          "first_name": "Mila"
+        },
+        "text": "Need to adjust alerts: too noisy now, keep only critical events and 5xx errors. Message #60."
+      }
+    },
+    {
+      "update_id": 20060,
+      "message": {
+        "message_id": 1058,
+        "date": 1762402400,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10001,
+          "is_bot": false,
+          "first_name": "Alice"
+        },
+        "text": "Checked production after deploy, latency grew on one endpoint, profiling cache now. Message #61."
+      }
+    },
+    {
+      "update_id": 20061,
+      "message": {
+        "message_id": 1059,
+        "date": 1762402440,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10001,
+          "is_bot": false,
+          "first_name": "Alice"
+        },
+        "text": "Prepared draft API docs with request examples and common client-side errors. Message #62."
+      }
+    },
+    {
+      "update_id": 20062,
+      "message": {
+        "message_id": 1060,
+        "date": 1762402480,
+        "chat": {
+          "id": 55667788,
+          "type": "private"
+        },
+        "from": {
+          "id": 10002,
+          "is_bot": false,
+          "first_name": "Bob"
+        },
+        "text": "Private chat message, must be skipped by non-group filter."
+      }
+    },
+    {
+      "update_id": 20063,
+      "message": {
+        "message_id": 1061,
+        "date": 1762402520,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10002,
+          "is_bot": false,
+          "first_name": "Bob"
+        },
+        "text": "Queue fixes done: retries are limited to avoid duplicate notifications to users. Message #64."
+      }
+    },
+    {
+      "update_id": 20064,
+      "message": {
+        "message_id": 1062,
+        "date": 1762402560,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10003,
+          "is_bot": false,
+          "first_name": "Carol"
+        },
+        "text": "Backend task updated: payment integration in progress, need review and logs check. Message #65."
+      }
+    },
+    {
+      "update_id": 20065,
+      "message": {
+        "message_id": 1063,
+        "date": 1762402600,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10003,
+          "is_bot": false,
+          "first_name": "Carol"
+        },
+        "text": "Suggest release sync: collect risks, frontend dependency, and final rollout checklist. Message #66."
+      }
+    },
+    {
+      "update_id": 20066,
+      "message": {
+        "message_id": 1064,
+        "date": 1762402640,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10004,
+          "is_bot": false,
+          "first_name": "Dan"
+        },
+        "text": "I took DB migrations, will send SQL by evening and add rollback steps. Message #67."
+      }
+    },
+    {
+      "update_id": 20067,
+      "message": {
+        "message_id": 1065,
+        "date": 1762402680,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10004,
+          "is_bot": false,
+          "first_name": "Dan"
+        },
+        "text": "Need to adjust alerts: too noisy now, keep only critical events and 5xx errors. Message #68."
+      }
+    },
+    {
+      "update_id": 20068,
+      "message": {
+        "message_id": 1066,
+        "date": 1762402720,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10005,
+          "is_bot": false,
+          "first_name": "Eva"
+        },
+        "text": "ok"
+      }
+    },
+    {
+      "update_id": 20069,
+      "message": {
+        "message_id": 1067,
+        "date": 1762402760,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10005,
+          "is_bot": false,
+          "first_name": "Eva"
+        },
+        "text": "Sent via helper bot, should be filtered out.",
+        "via_bot": {
+          "id": 5069,
+          "is_bot": true,
+          "username": "helper_bot"
+        }
+      }
+    },
+    {
+      "update_id": 20070,
+      "message": {
+        "message_id": 1068,
+        "date": 1762402800,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10006,
+          "is_bot": false,
+          "first_name": "Fedor"
+        },
+        "text": "Lets lock deadline for Friday, otherwise testing slips and regression stays open. Message #71."
+      }
+    },
+    {
+      "update_id": 20071,
+      "message": {
+        "message_id": 1069,
+        "date": 1762402840,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10006,
+          "is_bot": false,
+          "first_name": "Fedor"
+        },
+        "text": "Queue fixes done: retries are limited to avoid duplicate notifications to users. Message #72."
+      }
+    },
+    {
+      "update_id": 20072,
+      "message": {
+        "message_id": 1070,
+        "date": 1762402880,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10007,
+          "is_bot": false,
+          "first_name": "Gleb"
+        },
+        "text": "Backend task updated: payment integration in progress, need review and logs check. Message #73."
+      }
+    },
+    {
+      "update_id": 20073,
+      "message": {
+        "message_id": 1071,
+        "date": 1762402920,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10007,
+          "is_bot": false,
+          "first_name": "Gleb"
+        },
+        "text": "Suggest release sync: collect risks, frontend dependency, and final rollout checklist. Message #74."
+      }
+    },
+    {
+      "update_id": 20074,
+      "message": {
+        "message_id": 1072,
+        "date": 1762402960,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10008,
+          "is_bot": false,
+          "first_name": "Ira"
+        },
+        "text": "I took DB migrations, will send SQL by evening and add rollback steps. Message #75."
+      }
+    },
+    {
+      "update_id": 20075,
+      "message": {
+        "message_id": 1073,
+        "date": 1762403000,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10008,
+          "is_bot": false,
+          "first_name": "Ira"
+        },
+        "text": "Need to adjust alerts: too noisy now, keep only critical events and 5xx errors. Message #76."
+      }
+    },
+    {
+      "update_id": 20076,
+      "message": {
+        "message_id": 1074,
+        "date": 1762403040,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10009,
+          "is_bot": false,
+          "first_name": "Zhenya"
+        },
+        "photo": [
+          {
+            "file_id": "photo_76",
+            "file_unique_id": "uniq_76",
+            "width": 640,
+            "height": 480
+          }
+        ]
+      }
+    },
+    {
+      "update_id": 20077,
+      "message": {
+        "message_id": 1075,
+        "date": 1762403080,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10009,
+          "is_bot": false,
+          "first_name": "Zhenya"
+        },
+        "text": "Prepared draft API docs with request examples and common client-side errors. Message #78."
+      }
+    },
+    {
+      "update_id": 20078,
+      "message": {
+        "message_id": 1076,
+        "date": 1762403120,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10010,
+          "is_bot": false,
+          "first_name": "Mila"
+        },
+        "text": "Lets lock deadline for Friday, otherwise testing slips and regression stays open. Message #79."
+      }
+    },
+    {
+      "update_id": 20079,
+      "message": {
+        "message_id": 1077,
+        "date": 1762403160,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10010,
+          "is_bot": false,
+          "first_name": "Mila"
+        },
+        "text": "Queue fixes done: retries are limited to avoid duplicate notifications to users. Message #80."
+      }
+    },
+    {
+      "update_id": 20080,
+      "message": {
+        "message_id": 1078,
+        "date": 1762403200,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10001,
+          "is_bot": false,
+          "first_name": "Alice"
+        },
+        "text": "Backend task updated: payment integration in progress, need review and logs check. Message #81."
+      }
+    },
+    {
+      "update_id": 20081,
+      "message": {
+        "message_id": 1079,
+        "date": 1762403240,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10001,
+          "is_bot": false,
+          "first_name": "Alice"
+        },
+        "text": "Suggest release sync: collect risks, frontend dependency, and final rollout checklist. Message #82."
+      }
+    },
+    {
+      "update_id": 20082,
+      "edited_message": {
+        "message_id": 859
+      }
+    },
+    {
+      "update_id": 20083,
+      "message": {
+        "message_id": 1080,
+        "date": 1762403320,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10002,
+          "is_bot": false,
+          "first_name": "Bob"
+        },
+        "text": "Need to adjust alerts: too noisy now, keep only critical events and 5xx errors. Message #84."
+      }
+    },
+    {
+      "update_id": 20084,
+      "message": {
+        "message_id": 1081,
+        "date": 1762403360,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10003,
+          "is_bot": false,
+          "first_name": "Carol"
+        },
+        "text": "Checked production after deploy, latency grew on one endpoint, profiling cache now. Message #85."
+      }
+    },
+    {
+      "update_id": 20085,
+      "message": {
+        "message_id": 1082,
+        "date": 1762403400,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10003,
+          "is_bot": false,
+          "first_name": "Carol"
+        },
+        "text": "ok"
+      }
+    },
+    {
+      "update_id": 20086,
+      "message": {
+        "message_id": 1083,
+        "date": 1762403440,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10004,
+          "is_bot": false,
+          "first_name": "Dan"
+        },
+        "text": "Lets lock deadline for Friday, otherwise testing slips and regression stays open. Message #87."
+      }
+    },
+    {
+      "update_id": 20087,
+      "message": {
+        "message_id": 1084,
+        "date": 1762403480,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 30087,
+          "is_bot": true,
+          "first_name": "ServiceBot"
+        },
+        "text": "Automated service update about metrics."
+      }
+    },
+    {
+      "update_id": 20088,
+      "message": {
+        "message_id": 1085,
+        "date": 1762403520,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10005,
+          "is_bot": false,
+          "first_name": "Eva"
+        },
+        "text": "Backend task updated: payment integration in progress, need review and logs check. Message #89."
+      }
+    },
+    {
+      "update_id": 20089,
+      "message": {
+        "message_id": 1086,
+        "date": 1762403560,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10005,
+          "is_bot": false,
+          "first_name": "Eva"
+        },
+        "text": "Suggest release sync: collect risks, frontend dependency, and final rollout checklist. Message #90."
+      }
+    },
+    {
+      "update_id": 20090,
+      "message": {
+        "message_id": 1087,
+        "date": 1762403600,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10006,
+          "is_bot": false,
+          "first_name": "Fedor"
+        },
+        "text": "I took DB migrations, will send SQL by evening and add rollback steps. Message #91."
+      }
+    },
+    {
+      "update_id": 20091,
+      "message": {
+        "message_id": 1088,
+        "date": 1762403640,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10006,
+          "is_bot": false,
+          "first_name": "Fedor"
+        },
+        "text": "Need to adjust alerts: too noisy now, keep only critical events and 5xx errors. Message #92."
+      }
+    },
+    {
+      "update_id": 20092,
+      "message": {
+        "message_id": 1089,
+        "date": 1762403680,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10007,
+          "is_bot": false,
+          "first_name": "Gleb"
+        },
+        "text": "Sent via helper bot, should be filtered out.",
+        "via_bot": {
+          "id": 5092,
+          "is_bot": true,
+          "username": "helper_bot"
+        }
+      }
+    },
+    {
+      "update_id": 20093,
+      "message": {
+        "message_id": 1090,
+        "date": 1762403720,
+        "chat": {
+          "id": 55667788,
+          "type": "private"
+        },
+        "from": {
+          "id": 10007,
+          "is_bot": false,
+          "first_name": "Gleb"
+        },
+        "text": "Private chat message, must be skipped by non-group filter."
+      }
+    },
+    {
+      "update_id": 20094,
+      "message": {
+        "message_id": 1091,
+        "date": 1762403760,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10008,
+          "is_bot": false,
+          "first_name": "Ira"
+        },
+        "text": "Lets lock deadline for Friday, otherwise testing slips and regression stays open. Message #95."
+      }
+    },
+    {
+      "update_id": 20095,
+      "message": {
+        "message_id": 1092,
+        "date": 1762403800,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10008,
+          "is_bot": false,
+          "first_name": "Ira"
+        },
+        "photo": [
+          {
+            "file_id": "photo_95",
+            "file_unique_id": "uniq_95",
+            "width": 640,
+            "height": 480
+          }
+        ]
+      }
+    },
+    {
+      "update_id": 20096,
+      "message": {
+        "message_id": 1093,
+        "date": 1762403840,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10009,
+          "is_bot": false,
+          "first_name": "Zhenya"
+        },
+        "text": "Backend task updated: payment integration in progress, need review and logs check. Message #97."
+      }
+    },
+    {
+      "update_id": 20097,
+      "message": {
+        "message_id": 1094,
+        "date": 1762403880,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10009,
+          "is_bot": false,
+          "first_name": "Zhenya"
+        },
+        "text": "Suggest release sync: collect risks, frontend dependency, and final rollout checklist. Message #98."
+      }
+    },
+    {
+      "update_id": 20098,
+      "message": {
+        "message_id": 1095,
+        "date": 1762403920,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10010,
+          "is_bot": false,
+          "first_name": "Mila"
+        },
+        "text": "I took DB migrations, will send SQL by evening and add rollback steps. Message #99."
+      }
+    },
+    {
+      "update_id": 20099,
+      "message": {
+        "message_id": 1096,
+        "date": 1762403960,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10010,
+          "is_bot": false,
+          "first_name": "Mila"
+        },
+        "text": "Need to adjust alerts: too noisy now, keep only critical events and 5xx errors. Message #100."
+      }
+    },
+    {
+      "update_id": 20100,
+      "message": {
+        "message_id": 1097,
+        "date": 1762404000,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10001,
+          "is_bot": false,
+          "first_name": "Alice"
+        },
+        "text": "Checked production after deploy, latency grew on one endpoint, profiling cache now. Message #101."
+      }
+    },
+    {
+      "update_id": 20101,
+      "message": {
+        "message_id": 1098,
+        "date": 1762404040,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10001,
+          "is_bot": false,
+          "first_name": "Alice"
+        },
+        "text": "Prepared draft API docs with request examples and common client-side errors. Message #102."
+      }
+    },
+    {
+      "update_id": 20102,
+      "message": {
+        "message_id": 1099,
+        "date": 1762404080,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10002,
+          "is_bot": false,
+          "first_name": "Bob"
+        },
+        "text": "ok"
+      }
+    },
+    {
+      "update_id": 20103,
+      "message": {
+        "message_id": 1100,
+        "date": 1762404120,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10002,
+          "is_bot": false,
+          "first_name": "Bob"
+        },
+        "text": "Queue fixes done: retries are limited to avoid duplicate notifications to users. Message #104."
+      }
+    },
+    {
+      "update_id": 20104,
+      "message": {
+        "message_id": 1101,
+        "date": 1762404160,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10003,
+          "is_bot": false,
+          "first_name": "Carol"
+        },
+        "text": "Backend task updated: payment integration in progress, need review and logs check. Message #105."
+      }
+    },
+    {
+      "update_id": 20105,
+      "message": {
+        "message_id": 1102,
+        "date": 1762404200,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10003,
+          "is_bot": false,
+          "first_name": "Carol"
+        },
+        "text": "Suggest release sync: collect risks, frontend dependency, and final rollout checklist. Message #106."
+      }
+    },
+    {
+      "update_id": 20106,
+      "message": {
+        "message_id": 1103,
+        "date": 1762404240,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10004,
+          "is_bot": false,
+          "first_name": "Dan"
+        },
+        "text": "I took DB migrations, will send SQL by evening and add rollback steps. Message #107."
+      }
+    },
+    {
+      "update_id": 20107,
+      "message": {
+        "message_id": 1104,
+        "date": 1762404280,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10004,
+          "is_bot": false,
+          "first_name": "Dan"
+        },
+        "text": "Need to adjust alerts: too noisy now, keep only critical events and 5xx errors. Message #108."
+      }
+    },
+    {
+      "update_id": 20108,
+      "message": {
+        "message_id": 1105,
+        "date": 1762404320,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10005,
+          "is_bot": false,
+          "first_name": "Eva"
+        },
+        "text": "Checked production after deploy, latency grew on one endpoint, profiling cache now. Message #109."
+      }
+    },
+    {
+      "update_id": 20109,
+      "message": {
+        "message_id": 1106,
+        "date": 1762404360,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10005,
+          "is_bot": false,
+          "first_name": "Eva"
+        },
+        "text": "Prepared draft API docs with request examples and common client-side errors. Message #110."
+      }
+    },
+    {
+      "update_id": 20110,
+      "message": {
+        "message_id": 1107,
+        "date": 1762404400,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10006,
+          "is_bot": false,
+          "first_name": "Fedor"
+        },
+        "text": "Lets lock deadline for Friday, otherwise testing slips and regression stays open. Message #111."
+      }
+    },
+    {
+      "update_id": 20111,
+      "message": {
+        "message_id": 1108,
+        "date": 1762404440,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10006,
+          "is_bot": false,
+          "first_name": "Fedor"
+        },
+        "text": "Queue fixes done: retries are limited to avoid duplicate notifications to users. Message #112."
+      }
+    },
+    {
+      "update_id": 20112,
+      "message": {
+        "message_id": 1109,
+        "date": 1762404480,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10007,
+          "is_bot": false,
+          "first_name": "Gleb"
+        },
+        "text": "Backend task updated: payment integration in progress, need review and logs check. Message #113."
+      }
+    },
+    {
+      "update_id": 20113,
+      "message": {
+        "message_id": 1110,
+        "date": 1762404520,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10007,
+          "is_bot": false,
+          "first_name": "Gleb"
+        },
+        "text": "Suggest release sync: collect risks, frontend dependency, and final rollout checklist. Message #114."
+      }
+    },
+    {
+      "update_id": 20114,
+      "message": {
+        "message_id": 1111,
+        "date": 1762404560,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10008,
+          "is_bot": false,
+          "first_name": "Ira"
+        },
+        "photo": [
+          {
+            "file_id": "photo_114",
+            "file_unique_id": "uniq_114",
+            "width": 640,
+            "height": 480
+          }
+        ]
+      }
+    },
+    {
+      "update_id": 20115,
+      "message": {
+        "message_id": 1112,
+        "date": 1762404600,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10008,
+          "is_bot": false,
+          "first_name": "Ira"
+        },
+        "text": "Sent via helper bot, should be filtered out.",
+        "via_bot": {
+          "id": 5115,
+          "is_bot": true,
+          "username": "helper_bot"
+        }
+      }
+    },
+    {
+      "update_id": 20116,
+      "message": {
+        "message_id": 1113,
+        "date": 1762404640,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 30116,
+          "is_bot": true,
+          "first_name": "ServiceBot"
+        },
+        "text": "Automated service update about metrics."
+      }
+    },
+    {
+      "update_id": 20117,
+      "message": {
+        "message_id": 1114,
+        "date": 1762404680,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10009,
+          "is_bot": false,
+          "first_name": "Zhenya"
+        },
+        "text": "Prepared draft API docs with request examples and common client-side errors. Message #118."
+      }
+    },
+    {
+      "update_id": 20118,
+      "message": {
+        "message_id": 1115,
+        "date": 1762404720,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10010,
+          "is_bot": false,
+          "first_name": "Mila"
+        },
+        "text": "Lets lock deadline for Friday, otherwise testing slips and regression stays open. Message #119."
+      }
+    },
+    {
+      "update_id": 20119,
+      "message": {
+        "message_id": 1116,
+        "date": 1762404760,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10010,
+          "is_bot": false,
+          "first_name": "Mila"
+        },
+        "text": "ok"
+      }
+    },
+    {
+      "update_id": 20120,
+      "message": {
+        "message_id": 1117,
+        "date": 1762404800,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10001,
+          "is_bot": false,
+          "first_name": "Alice"
+        },
+        "text": "Backend task updated: payment integration in progress, need review and logs check. Message #121."
+      }
+    },
+    {
+      "update_id": 20121,
+      "message": {
+        "message_id": 1118,
+        "date": 1762404840,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10001,
+          "is_bot": false,
+          "first_name": "Alice"
+        },
+        "text": "Suggest release sync: collect risks, frontend dependency, and final rollout checklist. Message #122."
+      }
+    },
+    {
+      "update_id": 20122,
+      "message": {
+        "message_id": 1119,
+        "date": 1762404880,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10002,
+          "is_bot": false,
+          "first_name": "Bob"
+        },
+        "text": "I took DB migrations, will send SQL by evening and add rollback steps. Message #123."
+      }
+    },
+    {
+      "update_id": 20123,
+      "edited_message": {
+        "message_id": 900
+      }
+    },
+    {
+      "update_id": 20124,
+      "message": {
+        "message_id": 1120,
+        "date": 1762404960,
+        "chat": {
+          "id": 55667788,
+          "type": "private"
+        },
+        "from": {
+          "id": 10003,
+          "is_bot": false,
+          "first_name": "Carol"
+        },
+        "text": "Private chat message, must be skipped by non-group filter."
+      }
+    },
+    {
+      "update_id": 20125,
+      "message": {
+        "message_id": 1121,
+        "date": 1762405000,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10003,
+          "is_bot": false,
+          "first_name": "Carol"
+        },
+        "text": "Prepared draft API docs with request examples and common client-side errors. Message #126."
+      }
+    },
+    {
+      "update_id": 20126,
+      "message": {
+        "message_id": 1122,
+        "date": 1762405040,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10004,
+          "is_bot": false,
+          "first_name": "Dan"
+        },
+        "text": "Lets lock deadline for Friday, otherwise testing slips and regression stays open. Message #127."
+      }
+    },
+    {
+      "update_id": 20127,
+      "message": {
+        "message_id": 1123,
+        "date": 1762405080,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10004,
+          "is_bot": false,
+          "first_name": "Dan"
+        },
+        "text": "Queue fixes done: retries are limited to avoid duplicate notifications to users. Message #128."
+      }
+    },
+    {
+      "update_id": 20128,
+      "message": {
+        "message_id": 1124,
+        "date": 1762405120,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10005,
+          "is_bot": false,
+          "first_name": "Eva"
+        },
+        "text": "Backend task updated: payment integration in progress, need review and logs check. Message #129."
+      }
+    },
+    {
+      "update_id": 20129,
+      "message": {
+        "message_id": 1125,
+        "date": 1762405160,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10005,
+          "is_bot": false,
+          "first_name": "Eva"
+        },
+        "text": "Suggest release sync: collect risks, frontend dependency, and final rollout checklist. Message #130."
+      }
+    },
+    {
+      "update_id": 20130,
+      "message": {
+        "message_id": 1126,
+        "date": 1762405200,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10006,
+          "is_bot": false,
+          "first_name": "Fedor"
+        },
+        "text": "I took DB migrations, will send SQL by evening and add rollback steps. Message #131."
+      }
+    },
+    {
+      "update_id": 20131,
+      "message": {
+        "message_id": 1127,
+        "date": 1762405240,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10006,
+          "is_bot": false,
+          "first_name": "Fedor"
+        },
+        "text": "Need to adjust alerts: too noisy now, keep only critical events and 5xx errors. Message #132."
+      }
+    },
+    {
+      "update_id": 20132,
+      "message": {
+        "message_id": 1128,
+        "date": 1762405280,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10007,
+          "is_bot": false,
+          "first_name": "Gleb"
+        },
+        "text": "Checked production after deploy, latency grew on one endpoint, profiling cache now. Message #133."
+      }
+    },
+    {
+      "update_id": 20133,
+      "message": {
+        "message_id": 1129,
+        "date": 1762405320,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10007,
+          "is_bot": false,
+          "first_name": "Gleb"
+        },
+        "photo": [
+          {
+            "file_id": "photo_133",
+            "file_unique_id": "uniq_133",
+            "width": 640,
+            "height": 480
+          }
+        ]
+      }
+    },
+    {
+      "update_id": 20134,
+      "message": {
+        "message_id": 1130,
+        "date": 1762405360,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10008,
+          "is_bot": false,
+          "first_name": "Ira"
+        },
+        "text": "Lets lock deadline for Friday, otherwise testing slips and regression stays open. Message #135."
+      }
+    },
+    {
+      "update_id": 20135,
+      "message": {
+        "message_id": 1131,
+        "date": 1762405400,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10008,
+          "is_bot": false,
+          "first_name": "Ira"
+        },
+        "text": "Queue fixes done: retries are limited to avoid duplicate notifications to users. Message #136."
+      }
+    },
+    {
+      "update_id": 20136,
+      "message": {
+        "message_id": 1132,
+        "date": 1762405440,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10009,
+          "is_bot": false,
+          "first_name": "Zhenya"
+        },
+        "text": "ok"
+      }
+    },
+    {
+      "update_id": 20137,
+      "message": {
+        "message_id": 1133,
+        "date": 1762405480,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10009,
+          "is_bot": false,
+          "first_name": "Zhenya"
+        },
+        "text": "Suggest release sync: collect risks, frontend dependency, and final rollout checklist. Message #138."
+      }
+    },
+    {
+      "update_id": 20138,
+      "message": {
+        "message_id": 1134,
+        "date": 1762405520,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10010,
+          "is_bot": false,
+          "first_name": "Mila"
+        },
+        "text": "Sent via helper bot, should be filtered out.",
+        "via_bot": {
+          "id": 5138,
+          "is_bot": true,
+          "username": "helper_bot"
+        }
+      }
+    },
+    {
+      "update_id": 20139,
+      "message": {
+        "message_id": 1135,
+        "date": 1762405560,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10010,
+          "is_bot": false,
+          "first_name": "Mila"
+        },
+        "text": "Need to adjust alerts: too noisy now, keep only critical events and 5xx errors. Message #140."
+      }
+    },
+    {
+      "update_id": 20140,
+      "message": {
+        "message_id": 1136,
+        "date": 1762405600,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10001,
+          "is_bot": false,
+          "first_name": "Alice"
+        },
+        "text": "Checked production after deploy, latency grew on one endpoint, profiling cache now. Message #141."
+      }
+    },
+    {
+      "update_id": 20141,
+      "message": {
+        "message_id": 1137,
+        "date": 1762405640,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10001,
+          "is_bot": false,
+          "first_name": "Alice"
+        },
+        "text": "Prepared draft API docs with request examples and common client-side errors. Message #142."
+      }
+    },
+    {
+      "update_id": 20142,
+      "message": {
+        "message_id": 1138,
+        "date": 1762405680,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10002,
+          "is_bot": false,
+          "first_name": "Bob"
+        },
+        "text": "Lets lock deadline for Friday, otherwise testing slips and regression stays open. Message #143."
+      }
+    },
+    {
+      "update_id": 20143,
+      "message": {
+        "message_id": 1139,
+        "date": 1762405720,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10002,
+          "is_bot": false,
+          "first_name": "Bob"
+        },
+        "text": "Queue fixes done: retries are limited to avoid duplicate notifications to users. Message #144."
+      }
+    },
+    {
+      "update_id": 20144,
+      "message": {
+        "message_id": 1140,
+        "date": 1762405760,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10003,
+          "is_bot": false,
+          "first_name": "Carol"
+        },
+        "text": "Backend task updated: payment integration in progress, need review and logs check. Message #145."
+      }
+    },
+    {
+      "update_id": 20145,
+      "message": {
+        "message_id": 1141,
+        "date": 1762405800,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 30145,
+          "is_bot": true,
+          "first_name": "ServiceBot"
+        },
+        "text": "Automated service update about metrics."
+      }
+    },
+    {
+      "update_id": 20146,
+      "message": {
+        "message_id": 1142,
+        "date": 1762405840,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10004,
+          "is_bot": false,
+          "first_name": "Dan"
+        },
+        "text": "I took DB migrations, will send SQL by evening and add rollback steps. Message #147."
+      }
+    },
+    {
+      "update_id": 20147,
+      "message": {
+        "message_id": 1143,
+        "date": 1762405880,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10004,
+          "is_bot": false,
+          "first_name": "Dan"
+        },
+        "text": "Need to adjust alerts: too noisy now, keep only critical events and 5xx errors. Message #148."
+      }
+    },
+    {
+      "update_id": 20148,
+      "message": {
+        "message_id": 1144,
+        "date": 1762405920,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10005,
+          "is_bot": false,
+          "first_name": "Eva"
+        },
+        "text": "Checked production after deploy, latency grew on one endpoint, profiling cache now. Message #149."
+      }
+    },
+    {
+      "update_id": 20149,
+      "message": {
+        "message_id": 1145,
+        "date": 1762405960,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10005,
+          "is_bot": false,
+          "first_name": "Eva"
+        },
+        "text": "Prepared draft API docs with request examples and common client-side errors. Message #150."
+      }
+    },
+    {
+      "update_id": 20150,
+      "message": {
+        "message_id": 1146,
+        "date": 1762406000,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10006,
+          "is_bot": false,
+          "first_name": "Fedor"
+        },
+        "text": "Lets lock deadline for Friday, otherwise testing slips and regression stays open. Message #151."
+      }
+    },
+    {
+      "update_id": 20151,
+      "message": {
+        "message_id": 1147,
+        "date": 1762406040,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10006,
+          "is_bot": false,
+          "first_name": "Fedor"
+        },
+        "text": "Queue fixes done: retries are limited to avoid duplicate notifications to users. Message #152."
+      }
+    },
+    {
+      "update_id": 20152,
+      "message": {
+        "message_id": 1148,
+        "date": 1762406080,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10007,
+          "is_bot": false,
+          "first_name": "Gleb"
+        },
+        "photo": [
+          {
+            "file_id": "photo_152",
+            "file_unique_id": "uniq_152",
+            "width": 640,
+            "height": 480
+          }
+        ]
+      }
+    },
+    {
+      "update_id": 20153,
+      "message": {
+        "message_id": 1149,
+        "date": 1762406120,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10007,
+          "is_bot": false,
+          "first_name": "Gleb"
+        },
+        "text": "ok"
+      }
+    },
+    {
+      "update_id": 20154,
+      "message": {
+        "message_id": 1150,
+        "date": 1762406160,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10008,
+          "is_bot": false,
+          "first_name": "Ira"
+        },
+        "text": "I took DB migrations, will send SQL by evening and add rollback steps. Message #155."
+      }
+    },
+    {
+      "update_id": 20155,
+      "message": {
+        "message_id": 1151,
+        "date": 1762406200,
+        "chat": {
+          "id": 55667788,
+          "type": "private"
+        },
+        "from": {
+          "id": 10008,
+          "is_bot": false,
+          "first_name": "Ira"
+        },
+        "text": "Private chat message, must be skipped by non-group filter."
+      }
+    },
+    {
+      "update_id": 20156,
+      "message": {
+        "message_id": 1152,
+        "date": 1762406240,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10009,
+          "is_bot": false,
+          "first_name": "Zhenya"
+        },
+        "text": "Checked production after deploy, latency grew on one endpoint, profiling cache now. Message #157."
+      }
+    },
+    {
+      "update_id": 20157,
+      "message": {
+        "message_id": 1153,
+        "date": 1762406280,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10009,
+          "is_bot": false,
+          "first_name": "Zhenya"
+        },
+        "text": "Prepared draft API docs with request examples and common client-side errors. Message #158."
+      }
+    },
+    {
+      "update_id": 20158,
+      "message": {
+        "message_id": 1154,
+        "date": 1762406320,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10010,
+          "is_bot": false,
+          "first_name": "Mila"
+        },
+        "text": "Lets lock deadline for Friday, otherwise testing slips and regression stays open. Message #159."
+      }
+    },
+    {
+      "update_id": 20159,
+      "message": {
+        "message_id": 1155,
+        "date": 1762406360,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10010,
+          "is_bot": false,
+          "first_name": "Mila"
+        },
+        "text": "Queue fixes done: retries are limited to avoid duplicate notifications to users. Message #160."
+      }
+    },
+    {
+      "update_id": 20161,
+      "message": {
+        "message_id": 1007,
+        "date": 1762406440,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10002,
+          "is_bot": false,
+          "first_name": "Bob"
+        },
+        "text": "Duplicate message_id to test deduplication."
+      }
+    },
+    {
+      "update_id": 20162,
+      "message": {
+        "message_id": 1022,
+        "date": 1762406480,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10002,
+          "is_bot": false,
+          "first_name": "Bob"
+        },
+        "text": "Duplicate message_id to test deduplication."
+      }
+    },
+    {
+      "update_id": 20163,
+      "message": {
+        "message_id": 1048,
+        "date": 1762406520,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10002,
+          "is_bot": false,
+          "first_name": "Bob"
+        },
+        "text": "Duplicate message_id to test deduplication."
+      }
+    },
+    {
+      "update_id": 20164,
+      "message": {
+        "message_id": 1073,
+        "date": 1762406560,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10002,
+          "is_bot": false,
+          "first_name": "Bob"
+        },
+        "text": "Duplicate message_id to test deduplication."
+      }
+    },
+    {
+      "update_id": 20165,
+      "message": {
+        "message_id": 1099,
+        "date": 1762406600,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10002,
+          "is_bot": false,
+          "first_name": "Bob"
+        },
+        "text": "Duplicate message_id to test deduplication."
+      }
+    },
+    {
+      "update_id": 20166,
+      "message": {
+        "message_id": 1120,
+        "date": 1762406640,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10002,
+          "is_bot": false,
+          "first_name": "Bob"
+        },
+        "text": "Duplicate message_id to test deduplication."
+      }
+    },
+    {
+      "update_id": 20167,
+      "message": {
+        "message_id": 1145,
+        "date": 1762406680,
+        "chat": {
+          "id": -1002223334445,
+          "type": "supergroup",
+          "title": "AI Telegram Summarizer"
+        },
+        "from": {
+          "id": 10002,
+          "is_bot": false,
+          "first_name": "Bob"
+        },
+        "text": "Duplicate message_id to test deduplication."
+      }
+    }
+  ]
+}
